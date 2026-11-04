@@ -8,6 +8,7 @@ on:
         type: boolean
         required: false
         default: false
+
 jobs:
   build:
     runs-on: windows-latest
