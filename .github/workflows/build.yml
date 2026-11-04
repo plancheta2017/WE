@@ -8,10 +8,6 @@ on:
         type: boolean
         required: false
         default: false
-  pull_request:
-  push:
-    branches: [master]
-
 jobs:
   build:
     runs-on: windows-latest
